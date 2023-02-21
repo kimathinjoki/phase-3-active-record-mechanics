@@ -19,7 +19,7 @@ ActiveRecord::Base.connection.execute(sql)
 # Log SQL output to the terminal
 ActiveRecord::Base.logger = Logger.new(STDOUT)
 
-# Have the Student class inherit from ActiveRecord::Base
+# Have the Student class inherit ActiveRecord::Base
 class Student < ActiveRecord::Base
 end
 
